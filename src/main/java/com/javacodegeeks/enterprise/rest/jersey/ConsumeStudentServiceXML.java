@@ -22,6 +22,6 @@ public class ConsumeStudentServiceXML {
     	
         String output = student.toString();
  
-        return Response.status(200).entity(output).build();
+        return Response.status(200).entity(output).build(); 
     }
 }

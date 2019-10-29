@@ -12,7 +12,8 @@ public class HelloWorldREST {
 
 	@GET
 	@Path("/{parameter}")
-	public Response responseMsg(@PathParam("parameter") String parameter, @DefaultValue("Nothing to say") @QueryParam("value") String value) 
+	public Response responseMsg(@PathParam("parameter") String parameter, 
+			@DefaultValue("Nothing to say") @QueryParam("value") String value) 
 	{
 
 		//	http://localhost:8080/JAXRS-HelloWorld/rest/helloWorldREST/SCOOTER

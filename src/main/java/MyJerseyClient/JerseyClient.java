@@ -35,9 +35,6 @@ public class JerseyClient {
         } catch (Exception e) {
  
             e.printStackTrace();
- 
-        }		
-
+        }
 	}
-
 }
