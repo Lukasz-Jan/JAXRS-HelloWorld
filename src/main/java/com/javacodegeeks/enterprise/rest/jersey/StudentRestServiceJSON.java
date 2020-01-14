@@ -7,6 +7,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import com.javacodegeeks.enterprise.rest.jersey.StudentJSON;
 
+//	pierwsza aplikacja deploy:	https://examples.javacodegeeks.com/enterprise-java/rest/jersey/jersey-hello-world-example/
+
 //	https://www.mkyong.com/webservices/jax-rs/json-example-with-jersey-jackson/
 
 //	https://www.nabisoft.com/tutorials/java-ee/producing-and-consuming-json-or-xml-in-java-rest-services-with-jersey-and-jackson

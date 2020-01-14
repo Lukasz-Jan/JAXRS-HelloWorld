@@ -2,8 +2,12 @@ package com.javacodegeeks.enterprise.rest.jersey;
 
 
 import javax.xml.bind.annotation.XmlAttribute;
+
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+
+
+
 
 @XmlRootElement(name = "student")
 public class Student {

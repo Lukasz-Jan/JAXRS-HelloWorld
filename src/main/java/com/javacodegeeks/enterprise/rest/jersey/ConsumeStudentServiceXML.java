@@ -18,7 +18,8 @@ public class ConsumeStudentServiceXML {
     @Consumes(MediaType.APPLICATION_XML)
     public Response consumeXML( Student student ) {
  
-    	System.out.println(student.getFirstName());
+    	System.out.println(student.getFirstName() + "\t" + student.getLastName());
+
     	
         String output = student.toString();
  
